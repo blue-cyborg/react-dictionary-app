@@ -1,12 +1,19 @@
 import './App.css';
 import Dictionary from "./Dictionary"
+import Reading from "./Reading"
 
 function App() {
   return (
     <div className="App">
       <div className="container">
       <header className="App-header">
-        Hello World! this could be an image or funky text
+        <h1>
+          Dictionary
+        </h1>
+        <h2>
+          Find the word that has you stumped...
+        </h2>
+        <img src={Reading} alt="reading in bed"  />
       </header>
       <main>
         <Dictionary />
