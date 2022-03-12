@@ -13,7 +13,7 @@ function App() {
         <h2>
           Find the word that has you stumped...
         </h2>
-        <img src={Reading} alt="reading in bed"  />
+        <Reading />
       </header>
       <main>
         <Dictionary />

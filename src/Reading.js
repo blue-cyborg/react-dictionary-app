@@ -1,7 +1,11 @@
 import React from "react";
+import img1 from "./images/reading.jpg";
+import "./Reading.css"
 
 export default function Reading() {
     return(
-        <img src="./pexels-thought-catalog-904616.jpg" />
+        <div className="Reading">
+        <img src={img1} alt="reading in bed" />
+        </div>
     )
 }

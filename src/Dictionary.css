@@ -1,0 +1,8 @@
+.Dictionary {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  margin-left: 10px;
+}
