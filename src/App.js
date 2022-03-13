@@ -18,8 +18,25 @@ function App() {
       <main>
         <Dictionary />
       </main>
-      <footer className="App-footer">
-        Coded by Candice signature
+      <footer className='App-footer'>
+      <div className="d-flex justify-content-center">
+          <p>
+            <span role="img" aria-label="robot">
+              🤖
+            </span>
+            Open source code
+            <a
+              href="https://github.com/blue-cyborg/react-dictionary-app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {""} made by Candice Drave
+              <span role="img" aria-label="robot">
+                🤖
+              </span>
+            </a>
+          </p>
+        </div>
       </footer>
       </div>
     </div>
