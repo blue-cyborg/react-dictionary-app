@@ -1,6 +1,20 @@
-form {
+.Dictionary form {
   display: flex;
   justify-content: center;
+  padding-bottom: 30px;
+  background-color: paleturquoise;
+  box-shadow: 10px 10px 5px darkgray;
+  border-radius: 16px;
+  margin-top: 30px;
+  padding: 30px;
+}
+
+.bar {
+  border-radius: 6px;
+  width: 60%;
+  border: 1px solid #ddd;
+  color: #333;
+  padding: 6px 10px;
 }
 
 .btn {

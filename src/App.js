@@ -16,7 +16,7 @@ function App() {
         <Reading />
       </header>
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword="query" />
       </main>
       <footer className='App-footer'>
       <div className="d-flex justify-content-center">

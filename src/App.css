@@ -1,3 +1,31 @@
+a {
+  color: blueviolet;
+}
+
+a:hover {
+  color: red;
+}
+
+body {
+  background-color: #ebebeb;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Righteous", cursive;
+  font-family: "Syne Mono", monospace;
+}
+
+section {
+  background-color: white;
+  box-shadow: 10px 10px 5px darkgray;
+  border-radius: 16px;
+  margin-top: 30px;
+  padding: 30px;
+}
+
 .App-header {
   text-align: center;
   margin: 30px 0;
@@ -5,10 +33,4 @@
 .App-footer {
   text-align: center;
   margin: 30px 0;
-}
-
-h1,
-h2 {
-  font-family: "Righteous", cursive;
-  font-family: "Syne Mono", monospace;
 }
