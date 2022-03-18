@@ -13,7 +13,8 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+footer {
   font-family: "Righteous", cursive;
   font-family: "Syne Mono", monospace;
 }
