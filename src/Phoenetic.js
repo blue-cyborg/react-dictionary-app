@@ -6,7 +6,7 @@ import './Phonetic.css';
 export default function Phoenetic(props) {
     return (
         <div className="Phoenetic">
-            <p>🔊Listen</p>
+            <p className="Listen">🔊Listen</p>
             <ReactAudioPlayer
             src={props.phoenetic.audio}
             autoPlay
