@@ -1,11 +1,17 @@
 import React from "react";
+import ReactAudioPlayer from 'react-audio-player';
+import "./Phoenetic.css"
+
 
 export default function Phoenetic(props) {
     return (
         <div className="Phoenetic">
-            <a href={props.phoenetic.audio} target="_blank" rel="noreferrer">
-                🔊Hear a speaker pronounce the word
-            </a>
+            <p>🔊Listen</p>
+            <ReactAudioPlayer
+            src={props.phoenetic.audio}
+            autoPlay
+            controls
+            />              
             <br />
             {props.phoenetic.text}
         </div>
