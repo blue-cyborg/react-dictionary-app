@@ -12,7 +12,6 @@ export default function Phoenetic(props) {
             <p className="Listen">🔊Listen</p>
             <ReactAudioPlayer
             src={props.phoenetic.audio}
-            autoPlay
             controls
             />              
             <br />
