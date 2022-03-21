@@ -4,6 +4,9 @@ import './Phonetic.css';
 
 
 export default function Phoenetic(props) {
+    if (props.phoenetic.audio >= 0) {
+    return null;
+} else {
     return (
         <div className="Phoenetic">
             <p className="Listen">🔊Listen</p>
@@ -16,4 +19,5 @@ export default function Phoenetic(props) {
             {props.phoenetic.text}
         </div>
     );
+}
 }
